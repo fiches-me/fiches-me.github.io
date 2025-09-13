@@ -1,5 +1,5 @@
 ---
-// Ici, on peux ajouter du code, des fichiers ou des variables que l'on pouras ensuite utiliser dans l'HTML
+// Ici, on peut ajouter du code, des fichiers ou des variables que l'on pourra ensuite utiliser dans l'HTML
 
 // On importe le composant Icon de astro-icon pour pouvoir l'utiliser dans notre HTML
 import { Icon } from "astro-icon/components";
@@ -12,17 +12,40 @@ import "../assets/app.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Fiches.me</title>
   </head>
-  <body class="w-screen">
-    <!-- Ce tag avec la classe "prose" réactive le style des composants h* -->
-    <article class="prose prose-md mx-auto my-4 text-center">
-      <!-- MX ajoute de la marge sur l'axe X et MY ajoute de la marge sur l'axe Y (ici 4rem)
-	La liste des valeurs possible est sur tailwindcss.com -->
-      <h1 class="inline-flex align-baseline">
-        <Icon name="skill-icons:rocket" class="mr-2 align-baseline" />
-        Mon premier site avec Astro <h1></h1>
-      </h1>
-    </article>
+  <body class="w-screen flex flex-col justify-center items-center">
+    <img class="h-32 md:h-64 w-auto mt-8 md:mt-20" src="https://github.com/fiches-me.png" />
+    <h1 class="font-bold text-4xl md:text-6xl my-2 md:my-8">FICHES.ME</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-2">
+      <div class="card w-96 bg-base-200 card-lg border-3 border-base-300">
+        <div class="card-body">
+          <h2 class="card-title flex gap-2">
+            <img src="https://cpes.fiches.me/logo.png" class="w-8 h-8"/>
+            FICHES CPES
+          </h2>
+          <p>
+            Fiches de mathématiques, informatique, économie et SVT du supérieur.
+          </p>
+          <div class="card-actions">
+            <a class="w-full btn btn-error" href="https://cpes.fiches.me">Accéder au site</a>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-200 card-lg border-3 border-base-300">
+        <div class="card-body">
+          <h2 class="card-title flex gap-2">
+            <img src="https://kerna.fiches.me/logo.png" class="w-8 h-8"/>
+            FICHES KERNANEC
+          </h2>
+          <p>
+            Fiches de philosophie
+          </p>
+          <div class="card-actions">
+            <a class="w-full btn btn-info" href="https://kerna.fiches.me">Accéder au site</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
