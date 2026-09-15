@@ -10,19 +10,19 @@ hero:
   actions:
     - theme: brand
       text: 🔢 CPES2
-      link: /cpes2/
+      link: https://fiches.funa.dev/cpes2/
     - theme: alt
       text: 🖥️ CPES1
-      link: /cpes1/
+      link: https://fiches.funa.dev/cpes1/
     - theme: alt
       text: Kerna
-      link: /kerna/
+      link: https://fiches.funa.dev/kerna/
     - theme: alt
       text: Primary
-      link: /eco/
+      link: /primary/
     - theme: brand
       text: Contribute
-      link: /poo/
+      link: /contribute/
 features:
   - title: 📱 Responsive
     details: Bien visible sur téléphone
