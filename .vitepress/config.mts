@@ -30,7 +30,7 @@ const vitePressConfigs: UserConfig<any> = {
     },
     nav: [
       { text: "💖 Contribuer à Fiches", link: "/contribution" },
-      *{ text: "💖 Contribuer à Fiches", link: "/primary" },
+      { text: "💖 Contribuer à Fiches", link: "/primary" },
     ],
     footer: {
       message: "Publié sous licence GPL-3.0.",
