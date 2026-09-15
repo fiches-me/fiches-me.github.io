@@ -1,0 +1,40 @@
+{
+  "userAdmonitions": {
+    "définition": {
+      "type": "définition",
+      "color": "rgb(254, 129, 11)",
+      "icon": {
+        "name": "book",
+        "type": "fas"
+      },
+      "command": false,
+      "title": "Définition",
+      "iconWithCss": false,
+      "injectColor": false,
+      "noTitle": false,
+      "copy": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "12.0.5",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "icons": [
+    "fas"
+  ],
+  "rpgDownloadedOnce": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.c346ce",
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "useFontAwesome": false
+}
