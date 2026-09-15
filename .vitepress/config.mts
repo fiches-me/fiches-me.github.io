@@ -29,8 +29,8 @@ const vitePressConfigs: UserConfig<any> = {
       pattern: "https://github.com/fiches-me/fiches-me.github.io/edit/main/:path",
     },
     nav: [
+      { text: "🎨 Primary Vitepress", link: "/primary" },
       { text: "💖 Contribuer à Fiches", link: "/contribution" },
-      { text: "💖 Contribuer à Fiches", link: "/primary" },
     ],
     footer: {
       message: "Publié sous licence GPL-3.0.",
