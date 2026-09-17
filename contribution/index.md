@@ -40,7 +40,21 @@ est une pratique commune que vous serez ammené à reproduire dans votre futur s
 Sauf que, pour pouvoir contribuer à du code, *il faut savoir en écrire*...
 C'est pour cette raison que le(s) site(s) de fiches.me sont codés en [Markdown](https://commonmark.org/)
 
+## ⚡ Résumé 
+
+Fiches.me est fait pour être modifié sur [https://obsidian.md](Obsidian). Si vous utilisez déjà Obsidian ou vous êtes ouvert à testser des applications de notes, passez directement à [[# 🌐 Publier les fiches]]. 
+
+> [!BUG] Nous ne forceons aucune convention d'écriture pour le moment !
+
 ## 📄 Écrire des fiches
+
+### ✒️ Écrire en Markdown
+
+Si vous utilisez notion, le format des fichiers `.md` est très similaire à ceux de notion. Il existe aussi des [convertisseurs automatiques](https://github.com/souvikinator/notion-to-md). Si vous utilisez Google Docs, il existe des [sites](https://gdoc2md.com/) et des [extensions](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) pour convertir vos fichiers en markdown.
+
+### 🌐 Publier les fiches
+
+## ⚙️ Fiches : comment ça marche
 
 Les sites internets classiques sont codés en html.
 Cette fiche, en HTML, resemble à ça :
@@ -91,3 +105,5 @@ est une pratique commune que vous serez ammené à reproduire dans votre futur s
 Sauf que, pour pouvoir contribuer à du code, *il faut savoir en écrire*...
 C'est pour cette raison que le(s) site(s) de fiches.me sont codés en [[https://commonmark.org/|Markdown]]
 ```
+
+Les deux fichiers sont le même site. La nuance est que le premier est une **version compilé** du deuxième. *Oui, ces fous d'informaticiens compilent même du texte.*
