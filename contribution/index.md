@@ -1,5 +1,5 @@
 ---
-title: 💖 Comment Contribuer
+title: 💖 Contribuer à Fiches
 order: 1
 ---
 
@@ -28,26 +28,66 @@ const members = [
 ]
 </script>
 
-*Créer ou contribuer à un site web peut faire peur. Mais pour rendre nos fiches les plus accessibles possible, nous avant déjà fait tout le code pour qu'il ne vous reste que les fiches*
+# 💖 Contribuer à Fiches
 
-# 🎞 Un peu de contexte...
+> Merci beaucoup de penser à conntribuer à notre site !
+Fiches ne pourrait pas vivre sans ses contributeurs ! C'est grace à vos fiches peut prendre un s !
 
-Notre but n'est pas de vous apprendre à coder un site web - je n'ai pas *pas* de vie à ce point - mais uniquement de rendre les fiches de révision accessible à tous. **Et petit bonus :** les technologies utilisés sur [fiches.me](../index.md) sont déjà utilisés par UPS et IPP pour les TPs !
+Si vous êtes en CPES, ce qui est très probable vu l'orientation de fiches.me, vous découvrez tout juste l'informatique.
+Les **contributions open sources**, modifier un site (ou un produit informatique) existant,
+est une pratique commune que vous serez ammené à reproduire dans votre futur si vous décidez de faire plus d'informatique !
 
-Le site se code tout seule. *Aucune magie noir dans le processus,* juste beaucoup de code au préalable - mais en résumé vos fiches sont maquillées de partout puis envoyé au Goulag où elles devient un site web. Conclusion : **Vous faites les fiches, on fait le reste.**
+Sauf que, pour pouvoir contribuer à du code, *il faut savoir en écrire*...
+C'est pour cette raison que le(s) site(s) de fiches.me sont codés en [Markdown](https://commonmark.org/)
 
-# ✒️ Rédiger une fiche
+## 📄 Écrire des fiches
 
-Pour pouvoir avoir des titres, du **gras**, de *l'italique* ou encore [des liens](#), nous utilisons un format qui répond au dous nom de **Markdown**. Vous pouvez vous référer [[101.md|à ce guide markdown]] pour comprendre comment fonctionne la mise en forme fonctionne sur md.
+Les sites internets classiques sont codés en html.
+Cette fiche, en HTML, resemble à ça :
 
-Il est possible de juste prendre un fichier `.txt` et de le renommer en `.md` pour qu'il soit transformé et publié sur le site, nous passerons derrière pour la mise en forme.
+```html
+<div>
+    <h1 id="💖-contribuer-a-fiches" tabindex="-1">
+        💖 Contribuer à Fiches
+        <a
+            class="header-anchor"
+            href="#💖-contribuer-a-fiches"
+            aria-label="Permalink to “💖 Contribuer à Fiches”"
+            >​</a
+        >
+    </h1>
+    <blockquote>
+        <p>
+            Merci beaucoup de penser à conntribuer à notre site ! Fiches ne
+            pourrait pas vivre sans ses contributeurs ! C'est grace à vos fiches
+            peut prendre un s !
+        </p>
+    </blockquote>
+    <p>
+        Si vous êtes en CPES, ce qui est très probable vu l'orientation de
+        fiches.me, vous découvrez tout juste l'informatique. Les
+        <strong>contributions open sources</strong>, modifier un site (ou un
+        produit informatique) existant, est une pratique commune que vous serez
+        ammené à reproduire dans votre futur si vous décidez de faire plus
+        d'informatique !
+    </p>
+</div>
 
-# 👾 GitHub
+```
 
-Nous utilisons GitHub pour héberger notre site. Il vous faut donc passer par github pour proposer/envoyer vos fiches. [[github.md|On a aussi fait un guide pour ça :)]]. Quand votre fiche est accepté/publié/mise à jour, notre code la contruit et elle sera en live sur le site en moins de 5 minutes !
 
-# 👥Contributeurs
+*C'est pas très lisible et facile à écrire...* Sauf que fiches code **lui même** le HTML ! En réalité, les fiches sont de simples fichiers textes (`.txt`) avec quelques astérisques `*` et quelques tags `#` et le tour est joué !
 
-<VPTeamMembers size="medium" :members />
+```md
+# 💖 Contribuer à Fiches
 
-*La liste des contributeurs est synchronisée avec Github toutes les semaines.*
+> Merci beaucoup de penser à conntribuer à notre site !
+Fiches ne pourrait pas vivre sans ses contributeurs ! C'est grace à vos fiches peut prendre un s !
+
+Si vous êtes en CPES, ce qui est très probable vu l'orientation de fiches.me, vous découvrez tout juste l'informatique.
+Les **contributions open sources**, modifier un site (ou un produit informatique) existant,
+est une pratique commune que vous serez ammené à reproduire dans votre futur si vous décidez de faire plus d'informatique !
+
+Sauf que, pour pouvoir contribuer à du code, *il faut savoir en écrire*...
+C'est pour cette raison que le(s) site(s) de fiches.me sont codés en [[https://commonmark.org/|Markdown]]
+```
