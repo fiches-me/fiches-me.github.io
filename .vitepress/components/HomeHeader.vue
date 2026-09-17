@@ -21,9 +21,9 @@
     <div class="fiches-branding">
       <h1 class="fiches-branding-text">FICHES.ME</h1>
 
-      <span class="fiches-sub cross-red">Les fiches volés à HEC</span>
-      <span class="fiches-sub cross-yellow">Volés aux Prépas MP</span>
-      <span class="fiches-sub cross-green">Générés par ChatGPT</span>
+      <span class="fiches-sub cross-red">Les fiches payées à HEC</span>
+      <span class="fiches-sub cross-yellow">Volées aux Prépas MP</span>
+      <span class="fiches-sub cross-green">Générées par ChatGPT</span>
 
       <span class="fiches-subsub">communautaires comme l'open source</span>
     </div>
