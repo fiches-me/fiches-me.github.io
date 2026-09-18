@@ -36,7 +36,7 @@
       <a href="https://fiches.funa.dev/cpes1/" target="_blank" rel="noreferrer">🖥️ CPES1</a>
       <a href="https://fiches.funa.dev/kerna/" target="_blank" rel="noreferrer">🧠 Kerna</a>
       <a href="/primary/">🎨 Primary</a>
-      <a href="/contribute/">💖 Contribute</a>
+      <a href="/contribution/">💖 Contribuer</a>
     </div>
   </section>
 </template>
