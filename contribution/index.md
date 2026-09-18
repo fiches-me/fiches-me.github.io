@@ -71,15 +71,14 @@ Fiches est hébergé sur [GitHub](https://github.com/fiches-me). Pour y ajouter 
 
 #### 💣 Méthode Pro : GIT
 Si vous commencez à maîtriser les outils de développeur, vous pouvez cloner le dépôt sur votre machine :
-  
-  ```bash
-     git clone https://github.com/fiches-me/<nom>.git
-     ```
+
+```bash
+git clone https://github.com/fiches-me/<nom>.git
+```
+
 Créez une branche pour vos modifications, rédigez vos fiches depuis votre éditeur favori, puis proposez une *Pull Request* (PR).
 
-
 > [!Question] N'oubliez pas de remplacer `<nom>` par le nom de la formation, eg. `cpes1` ou `cpes2`.
-
 
 ## ⚙️ Fiches : comment ça marche ?
 
