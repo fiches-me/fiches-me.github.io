@@ -113,6 +113,8 @@ Cette fiche, en HTML, ressemble à ça :
 </div>
 ```
 
+*C'est peu illisible et fastidieux à écrire...* Sauf que **Fiches code lui-même** le HTML ! En réalité, les fiches sont de simples fichiers texte (`.txt`) enrichis de quelques astérisques `*` et de tags `#`, et le tour est joué !
+
 ```md
 # 💖 Contribuer à Fiches
 
