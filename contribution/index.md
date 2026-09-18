@@ -30,8 +30,8 @@ const members = [
 
 # 💖 Contribuer à Fiches
 
-> Merci beaucoup de penser à conntribuer à notre site !
-Fiches ne pourrait pas vivre sans ses contributeurs ! C'est grace à vos fiches peut prendre un s !
+> Merci beaucoup de penser à contribuer à notre site !
+Fiches ne pourrait pas vivre sans ses contributeurs ! C'est grace à vos fiches que fiches peut prendre un s !
 
 Si vous êtes en CPES, ce qui est très probable vu l'orientation de fiches.me, vous découvrez tout juste l'informatique.
 Les **contributions open sources**, modifier un site (ou un produit informatique) existant,
@@ -51,6 +51,10 @@ Fiches.me est fait pour être modifié sur [https://obsidian.md](Obsidian). Si v
 ### ✒️ Écrire en Markdown
 
 Si vous utilisez notion, le format des fichiers `.md` est très similaire à ceux de notion. Il existe aussi des [convertisseurs automatiques](https://github.com/souvikinator/notion-to-md). Si vous utilisez Google Docs, il existe des [sites](https://gdoc2md.com/) et des [extensions](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) pour convertir vos fichiers en markdown.
+
+Le markdown n'est qu'une syntaxe appliquée à du texte brut. Vous pourriez copier-coller vos fiches dans un fichier `.md` sans problème et le contenu s'afficherai sur le site. cxx
+
+Le Markdown ressemble beaucoup à un cours de mathématiques. Chaque titre (le titre du chapitre, les grands I, grands A, petits 1 et petits a) correspondent â
 
 ### 🌐 Publier les fiches
 
