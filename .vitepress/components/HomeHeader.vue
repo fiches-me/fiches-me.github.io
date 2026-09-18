@@ -34,9 +34,9 @@
     <div class="fiches-actions">
       <a href="https://fiches.funa.dev/cpes2/" target="_blank" rel="noreferrer">🔢 CPES2</a>
       <a href="https://fiches.funa.dev/cpes1/" target="_blank" rel="noreferrer">🖥️ CPES1</a>
-      <a href="https://fiches.funa.dev/kerna/" target="_blank" rel="noreferrer">Kerna</a>
-      <a href="/primary/">Primary</a>
-      <a href="/contribute/">Contribute</a>
+      <a href="https://fiches.funa.dev/kerna/" target="_blank" rel="noreferrer">🧠 Kerna</a>
+      <a href="/primary/">🎨 Primary</a>
+      <a href="/contribute/">💖 Contribute</a>
     </div>
   </section>
 </template>
